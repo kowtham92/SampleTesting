@@ -10,7 +10,7 @@ public class Maven {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Geethu\\Downloads\\chromedriver_win32\\chromedriver.exe");
 	    WebDriver driver = new ChromeDriver();
         driver.navigate().to("http://facebook.com");
-        driver.manage().window().maximize();
+       // driver.manage().window().maximize();
         String Title = driver.getTitle();
         System.out.println("Application title is :: "+Title );
 	}
